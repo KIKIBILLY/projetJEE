@@ -1,9 +1,11 @@
 package metier;
 
 
-import com.gurugubelli.pojo.User;
+import bean.User;
 
 public interface Imetier {
- public boolean login(String username, String password);
-
- public String registration(User user);
+ 
+	public boolean login(String username, String password);
+	public String register(User user);
+ 
+}

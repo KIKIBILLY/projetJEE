@@ -1,5 +1,10 @@
 package dao;
 
+import org.hibernate.Session;
+
+import bean.User;
+import util.HibernateUtil;
+
 public class BaseDaoImp implements BaseDao {
 	
 	 @Override

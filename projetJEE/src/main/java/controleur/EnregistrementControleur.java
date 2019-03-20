@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.gurugubelli.dao.BaseDao;
-import com.gurugubelli.dao.BaseDaoImpl;
-import com.gurugubelli.pojo.User;
+import dao.BaseDao;
+import dao.BaseDaoImp;
+import bean.User;
 
 
 public class EnregistrementControleur extends HttpServlet {
@@ -48,7 +48,7 @@ public class EnregistrementControleur extends HttpServlet {
    user.setMobileNo(request.getParameter("mobileNo"));
    
    System.out.println(user.toString());
-   BaseDao baseDao = new BaseDaoImpl();
+   BaseDao baseDao = new BaseDaoImp();
    msg = baseDao.register(user);
    page = "login.jsp";
   } 

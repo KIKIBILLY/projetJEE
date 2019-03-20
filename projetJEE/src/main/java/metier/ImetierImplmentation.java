@@ -1,13 +1,13 @@
 package metier;
 
 
-import com.gurugubelli.dao.BaseDao;
-import com.gurugubelli.dao.BaseDaoImpl;
+import dao.BaseDao;
+import dao.BaseDaoImp;
 import bean.User;
 
 public class ImetierImplmentation implements Imetier {
 
- private BaseDao loginDao = new BaseDaoImpl();
+ private BaseDao loginDao = new BaseDaoImp();
 
  @Override
  public boolean login(String username, String password) {
@@ -17,7 +17,7 @@ public class ImetierImplmentation implements Imetier {
  
  
  @Override
- public String registration(User utilisateur)
+ public String register(User utilisateur)
  {
   return loginDao.register(utilisateur);
  }

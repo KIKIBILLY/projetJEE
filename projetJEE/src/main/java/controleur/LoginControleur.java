@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.gurugubelli.service.BaseService;
-import com.gurugubelli.service.BaseServiceImpl;
+import metier.Imetier;
+import metier.ImetierImplmentation;
 
 /**
  * Servlet implementation class LoginController
@@ -36,7 +36,7 @@ public class LoginControleur extends HttpServlet {
   String page = "login.jsp";
   if(username.trim().length() >= 0 && username != null &&
     password.trim().length() >= 0 && password != null) {
-   BaseService loginService = new BaseServiceImpl();
+   Imetier loginService = new ImetierImplmentation();
    boolean flag = loginService.login(username, password);
    if(flag) {
     System.out.println("Login success!!!");
