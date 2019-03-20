@@ -57,7 +57,7 @@
       <div class="intro-text">
         <div class="intro-lead-in">Bienvenue sur Easy Rent!</div>
         <div class="intro-heading text-uppercase">Reservez, Louez</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Connexion</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="login.jsp">Connexion</a>
       </div>
     </div>
   </header>
