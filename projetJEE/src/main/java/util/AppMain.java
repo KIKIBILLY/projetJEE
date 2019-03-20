@@ -30,7 +30,7 @@ public class AppMain {
     }
  
     public static void main(String[] args) {
-        System.out.println(".......Hibernate Maven Example.......\n");
+        System.out.println(".......Hibernate Maven Example.......\n ok");
         try {
             sessionObj = buildSessionFactory().openSession();
             sessionObj.beginTransaction();
