@@ -16,7 +16,7 @@
 	<% } %>
 	</h2>
 	<div align="center">
-		<form action="userRegistration" method="post">
+		<form action="registration" method="post">
 			<table align="center" border="1">
 				<tr>
 					<td colspan="2" align="center"><b>User Registration</b></td>
