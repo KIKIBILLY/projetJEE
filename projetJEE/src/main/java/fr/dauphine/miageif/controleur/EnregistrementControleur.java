@@ -1,4 +1,4 @@
-package controleur;
+package fr.dauphine.miageif.controleur;
 
 
 import java.io.IOException;

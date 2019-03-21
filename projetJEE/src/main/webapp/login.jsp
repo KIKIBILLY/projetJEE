@@ -24,7 +24,7 @@
     <input type="text" name="username" required="required"> <br> <br> 
     <label>Enter Password : </label> 
     <input type="password" name="password" required="required"> <br> <br> 
-    <input type="submit" value="Login">
+    <input type="submit" value="login">
    </form>
  </h1>
  </div>
